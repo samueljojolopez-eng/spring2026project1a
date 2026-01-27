@@ -7,16 +7,18 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;}
   border: 2px solid black;
   padding: 20px;
   background-color: rgb(215, 195, 224);
-
+width: 1200px;
+  margin: 0 auto;
 }
 .left {
   float: left;
-  width: 28%;
+  width: 30%;
   padding: 30px;
+  text-align: center;
 }
 .right {
   float: right;
-  width: 28%;
+  width: 30%;
   padding: 30px;
 }  
 article h4 {
@@ -34,3 +36,8 @@ footer h3 {
   color : rgb(0, 0, 0);
   clear: both;
 }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}   
