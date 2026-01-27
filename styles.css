@@ -1,0 +1,36 @@
+
+h1{color : indigo;}
+body {background-color : rgb(205, 147, 255);}
+h2{color : indigo;
+font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.container {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: rgb(215, 195, 224);
+
+}
+.left {
+  float: left;
+  width: 28%;
+  padding: 30px;
+}
+.right {
+  float: right;
+  width: 28%;
+  padding: 30px;
+}  
+article h4 {
+  text-align: center;
+  color : black;
+}
+footer p {
+  text-align: center;
+  color : rgb(0, 0, 0);
+  clear: both;
+  visibility: hidden;
+}   
+footer h3 {
+  text-align: center;
+  color : rgb(0, 0, 0);
+  clear: both;
+}
