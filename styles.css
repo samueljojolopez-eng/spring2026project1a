@@ -76,3 +76,18 @@ img {
   width: 30%;
   padding: 30px;
 }
+.left3 {
+  float: left;
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+}
+.right3 {
+  float: right;
+  clear: right;
+  width: 30%;
+  padding: 30px;
+}
+table, th, td {
+  border:1px solid black;
+}
