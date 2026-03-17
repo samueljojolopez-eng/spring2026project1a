@@ -88,6 +88,42 @@ img {
   width: 30%;
   padding: 30px;
 }
+.left4 {
+  float: left;
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+}
+.right4 {
+  float: right;
+  clear: right;
+  width: 30%;
+  padding: 30px;
+}
+.left5 {
+  float: left;
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+}
+.right5 {
+  float: right;
+  clear: right;
+  width: 30%;
+  padding: 30px;
+}
+.left6 {
+  float: left;
+  width: 30%;
+  padding: 30px;
+  text-align: center;
+}
+.right6 {
+  float: right;
+  clear: right;
+  width: 30%;
+  padding: 30px;
+}
 table, th, td {
   border:1px solid black;
 }
