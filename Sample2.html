@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoJo's Art Studio | Professional Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Style+Script&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="sample2.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="title">JoJo's Online Art Showcase</h1>
+        <p class="subtitle">Art showcased can be found on Instagram 
+            <span class="instagram_link"><a href="https://www.instagram.com/thenoisyboy1993">@thenoisyboy1993</a></span> 😁
+        </p>
+    </header>
+
+    <main class="gallery">
+
+        <section class="art-card">
+            <div class="image-frame">
+                <img src="images/img1.png" alt="Masks Artwork">
+            </div>
+            <div class="art-info">
+                <h2>The Hidden Persona</h2>
+                <p>
+                    This piece represents how one person can have various <strong>"masks"</strong> that others know 
+                    you by, while never really seeing who is underneath. A study on the layers of human identity.
+                </p>
+            </div>
+        </section>
+
+        <section class="art-card">
+            <div class="image-frame">
+                <img src="images/img2.png" alt="Vastness of Sky">
+            </div>
+            <div class="art-info">
+                <h2>Vastness & Perspective</h2>
+                <p>
+                    Instead of focusing on the person, the focus is on the vastness of the sky. Sometimes you 
+                    just need to be alone to truly take in the view. This features my <strong>"self-inserts"</strong>—characters 
+                    that allow me to express myself in a way words cannot.
+                </p>
+            </div>
+        </section>
+
+        <section class="art-card">
+            <div class="image-frame">
+                <img src="images/img3.png" alt="Night Sky Perspective">
+            </div>
+            <div class="art-info">
+                <h2>Violets of the Night</h2>
+                <p>
+                    A test on drawing specific <strong>angled perspectives</strong> looking up at the night sky. 
+                    I used purples and shades of violet to give a sense of calm, showing that even at night, 
+                    there is light.
+                </p>
+            </div>
+        </section>
+
+        <section class="art-card">
+            <div class="image-frame">
+                <img src="images/img4.png" alt="Wacky Colors Artwork">
+            </div>
+            <div class="art-info">
+                <h2>Wacky Calm</h2>
+                <p>
+                    Experimenting with wacky colors while still portraying <strong>calm and wonder</strong>. 
+                    While I usually use darker purples and pinks, I decided to play with lighter colors here 
+                    to practice pure technique.
+                </p>
+            </div>
+        </section>
+
+        <section class="art-card">
+            <div class="image-frame">
+                <img src="images/img5.png" alt="Car Illustration">
+            </div>
+            <div class="art-info">
+                <h2>Automotive Study</h2>
+                <p>
+                    A technical test for drawing <strong>cars and unique shadow placement</strong>. This piece 
+                    allowed me to play with high-contrast color choices and how lighting interacts with 
+                    mechanical surfaces.
+                </p>
+            </div>
+        </section>
+
+        <section class="art-card">
+            <div class="image-frame">
+                <img src="images/img6.png" alt="Dark Setting Lighting">
+            </div>
+            <div class="art-info">
+                <h2>Atmospheric Lighting</h2>
+                <p>
+                    A return to darker settings to test how well I could portray <strong>lighting and cast shadows</strong> 
+                    in a night scene, ensuring the atmosphere remains heavy but the details stay visible.
+                </p>
+            </div>
+        </section>
+
+    </main>
+<button onclick="topFunction()" id="backToTop" title="Go to top">↑</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("backToTop");
+
+// When the user scrolls down 300px from the top, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks, scroll to the top smoothly
+function topFunction() {
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+
+    <div class="nav-container">
+        <a href="index2.html" class="nav-button">Home</a>
+        <a href="contact2.html" class="nav-button">Contact Me</a>
+        <a href="Sample2.html" class="nav-button">Art Studio</a>
+    </div>
+    <footer>
+        <h3>Thank you for visiting my showcase!</h3>
+        <p>© 2026 NoisyBoy "JoJo" Lopez | All rights reserved </p>
+    </footer>
+
+</body>
+</html>

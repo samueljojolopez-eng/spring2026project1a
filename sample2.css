@@ -1,0 +1,297 @@
+/* GENERAL PAGE STYLING */
+body {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #cd93ff; /* Your original purple background */
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: indigo; /* Your original favorite color */
+    color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.title {
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-family: "Style Script", cursive;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.instagram_link a {
+    color: #ffb3ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.instagram_link a:hover {
+    color: white;
+    text-shadow: 0 0 10px #ffb3ff;
+}
+
+/* FLEX GALLERY CONTAINER */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 3rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* INDIVIDUAL ART CARD */
+.art-card {
+    display: flex;
+    background: #d7c3e0; /* Your original container color */
+    border: 2px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 0px rgba(0,0,0,0.1); /* Fun, "pop art" shadow */
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* IMAGE "FRAME" STYLING */
+.image-frame {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background: #222; /* Dark background to make art pop */
+}
+
+.art-card img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border: 10px solid white; /* The "Picture Frame" look */
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* TEXT AREA */
+.art-info {
+    padding: 2rem;
+    flex: 1.5;
+    min-width: 300px;
+}
+
+.art-info h2 {
+    color: indigo;
+    font-family: "Anton", sans-serif;
+    margin-top: 0;
+}
+
+/* INFO SECTION (From your table) */
+.info-section {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.faq-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.faq-item h4 {
+    color: indigo;
+    margin-bottom: 5px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: indigo;
+    color: white;
+    margin-top: 3rem;
+}
+
+/* RESPONSIVE BEHAVIOR */
+@media (max-width: 700px) {
+    .art-card {
+        flex-direction: column;
+    }
+}
+#backToTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place it 30px from the bottom */
+  right: 30px; /* Place it 30px from the right */
+  z-index: 99; /* Make sure it stays on top of the art cards */
+  border: 2px solid white; 
+  outline: none;
+  background-color: indigo; /* Matches your header */
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%; /* Makes it a circle */
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+#backToTop:hover {
+  background-color: #5a005a; /* Slightly darker purple on hover */
+  transform: scale(1.1); /* Grows slightly when hovered */
+}
+/* Figma-Style Navigation Bar */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.nav-button {
+    background-color: #d9d9d9; /* The gray from your Figma */
+    color: black;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.nav-button:hover {
+    background-color: indigo;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Page Containers */
+.page-wrapper {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fdfdfd;
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 15px 15px 0px rgba(0,0,0,0.1);
+}
+
+.gray-header {
+    background: #d9d9d9;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.gray-header h1 {
+    font-family: "Anton", sans-serif;
+    margin: 0;
+    color: black;
+    letter-spacing: 3px;
+}
+
+/*changes made after this text are for styling*/
+
+/* THE STUDIO THEME - SHARED ACROSS ALL PAGES */
+body {
+    margin: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #cd93ff; /* Your signature Purple */
+    color: #222;
+}
+
+/* Common Header for all pages */
+.studio-header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: indigo;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.studio-header h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+/* Navigation - Same gray blocks from Figma, but styled for the Studio */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background: rgba(0,0,0,0.1);
+}
+
+.nav-button {
+    background-color: #d9d9d9;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Anton", sans-serif;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    background: white;
+    transform: translateY(-3px);
+}
+
+/* The "Standard Card" - Used for Art, Bio, and Contact */
+.studio-card {
+    display: flex;
+    background: #d7c3e0; 
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 12px 12px 0px rgba(0,0,0,0.15);
+    margin: 40px auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card-visual {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    background: #1a1a1a; /* Dark "Gallery" background */
+    display: flex;
+    justify-content: center;
+}
+
+.card-visual img {
+    width: 100%;
+    max-width: 350px;
+    border: 10px solid white; /* Your "Picture Frame" style */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.card-text {
+    flex: 1.5;
+    padding: 3rem;
+    min-width: 300px;
+}
+
+.card-text h2 {
+    font-family: "Anton", sans-serif;
+    color: indigo;
+    border-bottom: 2px solid indigo;
+    display: inline-block;
+}
